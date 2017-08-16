@@ -12,9 +12,12 @@
 		82FCC7001F2D750800FBE8CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FCC6FE1F2D750800FBE8CC /* Main.storyboard */; };
 		82FCC7021F2D750800FBE8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82FCC7011F2D750800FBE8CC /* Assets.xcassets */; };
 		82FCC7051F2D750800FBE8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82FCC7031F2D750800FBE8CC /* LaunchScreen.storyboard */; };
+		EBF0AE3D9AB83B93921A5A7E /* Pods_Facebook_Login_30_07_2017.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AC890F59EA9FAEA54C42B75 /* Pods_Facebook_Login_30_07_2017.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		108CBBAB0389408CA1D1354E /* Pods-Facebook-Login-30-07-2017.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook-Login-30-07-2017.release.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook-Login-30-07-2017/Pods-Facebook-Login-30-07-2017.release.xcconfig"; sourceTree = "<group>"; };
+		5AC890F59EA9FAEA54C42B75 /* Pods_Facebook_Login_30_07_2017.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Facebook_Login_30_07_2017.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FCC6F71F2D750800FBE8CC /* Facebook-Login-30-07-2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Facebook-Login-30-07-2017.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82FCC6FA1F2D750800FBE8CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82FCC6FC1F2D750800FBE8CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		82FCC7011F2D750800FBE8CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82FCC7041F2D750800FBE8CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82FCC7061F2D750800FBE8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E389B02991F1F97D8D7FF634 /* Pods-Facebook-Login-30-07-2017.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Facebook-Login-30-07-2017.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Facebook-Login-30-07-2017/Pods-Facebook-Login-30-07-2017.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF0AE3D9AB83B93921A5A7E /* Pods_Facebook_Login_30_07_2017.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				82FCC6F91F2D750800FBE8CC /* Facebook-Login-30-07-2017 */,
 				82FCC6F81F2D750800FBE8CC /* Products */,
+				E1DBB489B5C7FED2E9CCE5FB /* Pods */,
+				D9B63EA96D55CE0CA42DFA15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +71,23 @@
 			path = "Facebook-Login-30-07-2017";
 			sourceTree = "<group>";
 		};
+		D9B63EA96D55CE0CA42DFA15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AC890F59EA9FAEA54C42B75 /* Pods_Facebook_Login_30_07_2017.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1DBB489B5C7FED2E9CCE5FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E389B02991F1F97D8D7FF634 /* Pods-Facebook-Login-30-07-2017.debug.xcconfig */,
+				108CBBAB0389408CA1D1354E /* Pods-Facebook-Login-30-07-2017.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 82FCC7091F2D750800FBE8CC /* Build configuration list for PBXNativeTarget "Facebook-Login-30-07-2017" */;
 			buildPhases = (
+				772ACFB031638F66496F364B /* [CP] Check Pods Manifest.lock */,
 				82FCC6F31F2D750800FBE8CC /* Sources */,
 				82FCC6F41F2D750800FBE8CC /* Frameworks */,
 				82FCC6F51F2D750800FBE8CC /* Resources */,
+				B936C2B5DEB9ED16F93B58D9 /* [CP] Embed Pods Frameworks */,
+				C77D3038142CF3CBB42EF239 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,6 +158,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		772ACFB031638F66496F364B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B936C2B5DEB9ED16F93B58D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facebook-Login-30-07-2017/Pods-Facebook-Login-30-07-2017-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C77D3038142CF3CBB42EF239 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Facebook-Login-30-07-2017/Pods-Facebook-Login-30-07-2017-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		82FCC6F31F2D750800FBE8CC /* Sources */ = {
@@ -257,6 +332,7 @@
 		};
 		82FCC70A1F2D750800FBE8CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E389B02991F1F97D8D7FF634 /* Pods-Facebook-Login-30-07-2017.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TKR2QX32K8;
@@ -270,6 +346,7 @@
 		};
 		82FCC70B1F2D750800FBE8CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 108CBBAB0389408CA1D1354E /* Pods-Facebook-Login-30-07-2017.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TKR2QX32K8;
